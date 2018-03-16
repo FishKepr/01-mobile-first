@@ -1,0 +1,21 @@
+.nav-list-ul {
+    display: none;
+}
+  
+nav:hover .nav-list-ul {
+display: block;
+} 
+
+.ham-menu {
+display: block;
+}
+
+@media only screen and (min-width: 640px) {
+    .nav-list-ul {
+        display: block;
+    }
+
+    .ham-menu {
+        display: none;
+    }
+}
