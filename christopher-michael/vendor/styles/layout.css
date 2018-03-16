@@ -1,3 +1,7 @@
+.site-header {
+    background-color: khaki;
+}
+
 .nav-list-ul {
     display: none;
 }
@@ -11,8 +15,8 @@ display: block;
 }
 
 @media only screen and (min-width: 640px) {
-    .nav-list-ul {
-        display: block;
+    .nav-list-ul{
+        display: inline-block;
     }
 
     .ham-menu {
